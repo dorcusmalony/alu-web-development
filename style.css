@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    background-color: pink;
+    flex-direction: column;
+    
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    flex: auto;
+    height: auto;
+    width: auto;
+    flex: auto;
+  }
+  
+  article {
+    flex: 2;
+    overflow-y: auto;
+  }
+  
+  aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color: wheat;
+    color: black;
+  }
